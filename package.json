@@ -1,5 +1,5 @@
 {
-  "name": "marahtin-ui-plugin-sdk",
+  "name": "marathon-ui-plugin-sdk",
   "version": "0.0.1",
   "engines": {
     "node": "5.4.1"
