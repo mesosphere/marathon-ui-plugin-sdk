@@ -1,0 +1,26 @@
+{
+  "name": "marahtin-ui-plugin-sdk",
+  "version": "0.0.1",
+  "engines": {
+    "node": "5.4.1"
+  },
+  "description": "Official Marathon UI Plugin SDK™",
+  "main": "",
+  "keywords": [
+    "marathon",
+    "mesos",
+    "plugin",
+    "sdk"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mesosphere/marathon-ui-plugin-sdk.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  }
+}
