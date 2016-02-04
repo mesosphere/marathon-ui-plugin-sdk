@@ -1,4 +1,4 @@
-import Util from "../../helpers/Util";
+import Util from "./Util";
 
 const PluginMountPoints = Util.objectCreateWithAdder("PLUGIN_MOUNT_POINTS_");
 

@@ -1,4 +1,4 @@
-import Util from "../../helpers/Util";
+import Util from "./Util";
 
 const PluginEvents = Util.objectCreateWithAdder("PLUGIN_EVENTS_");
 
