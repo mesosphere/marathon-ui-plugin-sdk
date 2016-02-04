@@ -1,4 +1,4 @@
-import Util from "../../helpers/Util";
+import Util from "./Util";
 
 const PluginActions = Util.objectCreateWithAdder("PLUGIN_ACTION_");
 
