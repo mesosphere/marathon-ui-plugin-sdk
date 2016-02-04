@@ -16,10 +16,9 @@ var PluginHelper = {
     });
   },
 
-  registerMe: function (pluginId) {
+  registerMe: function () {
     PluginDispatcher.dispatch({
-      eventType: "STARTUP_COMPLETE",
-      pluginId: pluginId
+      eventType: "STARTUP_COMPLETE"
     });
   }
 };
