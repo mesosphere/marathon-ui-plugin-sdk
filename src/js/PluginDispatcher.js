@@ -1,5 +1,3 @@
-import {Dispatcher} from "flux";
-
-var PluginDispatcher = new Dispatcher();
+var {PluginDispatcher} = window["marathonPluginInterface"];
 
 export default PluginDispatcher;
