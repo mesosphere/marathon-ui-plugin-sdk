@@ -1,1 +1,1 @@
-# marathon-ui-plugin-sdk
+# Official Marathon UI Plugin SDK™"
