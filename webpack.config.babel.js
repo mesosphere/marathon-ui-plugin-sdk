@@ -7,7 +7,7 @@ export default  {
   output: {
     path: path.resolve(__dirname, "lib"),
     filename: "[name].js",
-    libraryTarget: "commonjs2"
+    libraryTarget: "commonjs"
   },
   module: {
     preLoaders: [
@@ -28,6 +28,9 @@ export default  {
       }
     ]
   },
-  plugins: []
+  plugins: [],
+  resolve: {
+    extensions: ["", ".jsx", ".js"]
+  }
 };
 
