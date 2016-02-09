@@ -1,7 +1,2 @@
-import Util from "./Util";
-
-const PluginEvents = Util.objectCreateWithAdder("PLUGIN_EVENTS_");
-
-["APPS_STORE_CHANGE"].forEach(PluginEvents.add);
-
+var {PluginEvents} = window["marathonPluginInterface"];
 export default PluginEvents;

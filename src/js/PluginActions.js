@@ -1,7 +1,2 @@
-import Util from "./Util";
-
-const PluginActions = Util.objectCreateWithAdder("PLUGIN_ACTION_");
-
-["DIALOG_ALERT"].forEach(PluginActions.add);
-
+var {PluginActions} = window["marathonPluginInterface"];
 export default PluginActions;

@@ -1,4 +1,5 @@
 import PluginDispatcher from "./PluginDispatcher";
+import PluginEvents from "./PluginEvents";
 
 var PluginHelper = {
   callAction: function (action, data) {
