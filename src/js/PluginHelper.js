@@ -11,7 +11,7 @@ var PluginHelper = {
 
   injectComponent: function (component, placeId) {
     PluginDispatcher.dispatch({
-      eventType: "INJECT_COMPONENT",
+      eventType: PluginEvents.INJECT_COMPONENT,
       placeId: placeId,
       component: component
     });
@@ -19,7 +19,7 @@ var PluginHelper = {
 
   registerMe: function () {
     PluginDispatcher.dispatch({
-      eventType: "STARTUP_COMPLETE"
+      eventType: PluginEvents.STARTUP_COMPLETE
     });
   }
 };
